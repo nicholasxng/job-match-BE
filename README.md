@@ -7,3 +7,22 @@ This is the backend for the ATS match application.
 ```bash
 npm install
 npm start
+
+### Running the Application
+
+### Running the Application
+
+1. **Clone and set up both repositories:**
+
+```bash
+# Frontend
+git clone <frontend-repo-url>
+cd frontend
+npm install
+npm start
+
+# Backend
+git clone <backend-repo-url>
+cd backend
+npm install
+npm start
