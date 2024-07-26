@@ -1,12 +1,11 @@
-2. **server.js:**
-
-```javascript
 const express = require('express');
 const bodyParser = require('body-parser');
 const axios = require('axios');
+const cors = require('cors'); // Import the cors package
 
 const app = express();
 app.use(bodyParser.json());
+app.use(cors()); // Enable CORS for all routes
 
 const OPENAI_API_KEY = 'your-openai-api-key';
 
