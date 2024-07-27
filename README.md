@@ -24,5 +24,9 @@ npm start
 # Backend
 git clone <backend-repo-url>
 cd backend
+pip install -r requirements.txt
+python server.py
 npm install
 npm start
+
+
